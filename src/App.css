@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700');
+
+* {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  background-color: #7a4a88;
+  }
+
+  header {
+    letter-spacing: .7em;
+    padding-top: 1.5em;
+    padding-bottom: 2em;
+    color: #fafafa;
+  }
+
+  header img {
+    width: 45%;
+    margin-bottom: 1em;
+  }
+
+  input {
+    padding-top: .5em;
+    padding-bottom: .5em;
+  }
+  
+  .loginForm {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
+  .center {
+    margin: 0;
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
+  .loginInput {
+    font-size: 1.1em;
+    padding: 2em;
+    border: none;
+    background: #fafafa;
+    border-radius: .4em;
+  }
+
+  .loginh2 {
+    color: #fafafa;
+    font-size: 1.5em;
+    letter-spacing: .05em;
+    font-weight: 400;
+  }
+
+  .loginh3 {
+    color: #fafafa;
+    font-size: 1em;
+    letter-spacing: .03em;
+    font-weight: 400;
+  }
+
+  .loginButton {
+    font-size: 1.1em;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    padding-top: .7em;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: .7em;
+    margin-top: -.1em;
+    margin-bottom: 2.5em;
+    border: none;
+    border-radius: .2em;
+    background: #cca3e2;
+    color: #fafafa;
+  }
+
+  .logoutButton {
+    float: left;
+    font-size: .8em;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    padding-top: .7em;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: .7em;
+    margin-top: -.9em;
+    margin-bottom: 2.5em;
+    margin-left: 2.3em;
+    border: none;
+    border-radius: .2em;
+    background: #4f275b;
+    color: #fafafa;
+  }
+
+  .logoutButton:hover {
+    background: #5d326a;
+    color: #fafafa;
+  }
+
+  .loginButton:last-child {
+    margin-bottom: 0em;
+  }
+
+  .loginButton:hover {
+    background: #fafafa;
+    color: #cca3e2;
+  }
+
+  .loginError {
+    color: #fafafa;
+    font-size: .8em;
+    margin-top: 1.3em;
+  }
+
+  .chatWrapper {
+    width: 96%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .leftFloat {
+    width: 25%;
+    float: left;
+    background: #cca3e2;
+    border-radius: .5em;
+  }
+
+  .roomColumn {
+    background: #cca3e2;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    border-radius: .5em;
+  }
+
+  .roomColumn h2 {
+    text-align: left;
+    margin-left: 1.2em;
+    font-size: 1.5em;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fafafa;
+    letter-spacing: .16em;
+    background: #cca3e2;
+  }
+
+  .buttonGroup {
+    background: #cca3e2;
+  }
+
+  .roomColumn button {
+    text-align: left;
+    margin-left: 0;
+    margin-bottom: 1.1em;
+    font-size: .95em;
+    letter-spacing: .24em;
+    font-weight: 500;
+    background: #cca3e2;
+    color: #393939;
+    margin-left: 1.7em;
+    display: block;
+    border: none;
+  }
+
+  .roomColumn button:hover {
+    font-weight: 900;
+    color: #4f275b;
+  }
+
+  .chatColumn {
+    float: left;
+    width: 75%;
+  }
+
+  .chatColumn h2 {
+    text-align: right;
+    width: 90%;
+    color: #fff;
+    font-weight: 400;
+    letter-spacing: .15em;
+    margin-top: 2.2em;
+    font-size: 1.3em;
+  }
+
+  .wordInput {
+    background: #fff;
+    width:85%;
+    font-size: 1.1em;
+    padding: 1.5em;
+    border: none;
+    border-radius: .4em;
+    color: #666;
+    margin-bottom: 1.4em;
+  }
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  li {
+    color: #fff;
+    font-size: 1.3em;
+    font-weight: 700;
+    letter-spacing: .05em;
+    line-height: 1.7em;
+    margin-bottom: 2em;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+  }
+
+  .timestamp {
+    margin-top: .2em;
+    font-size: .5em;
+    font-weight: 500;
+    letter-spacing: .4em;
+    text-transform: uppercase;
+    display: block;
+    color: #fafafa;
+    text-align: left;
+  }
+
+  @media screen and (max-width: 900px) {
+
+    header img {
+      width: 70%;
+      margin-bottom: .2em;
+    }
+
+    .loginh2 {
+      color: #fafafa;
+      font-size: 1.2em;
+      letter-spacing: .05em;
+      font-weight: 500;
+    }
+  
+    .loginh3 {
+      color: #fafafa;
+      font-size: .9em;
+      letter-spacing: .03em;
+      font-weight: 400;
+    }
+
+    .leftFloat {
+      float: none;
+      width: 100%;
+      margin-top: -1em;
+      border-radius: 0em;
+      text-align: center;
+    }
+
+    .logoutButton {
+      font-size: .7em;
+      letter-spacing: .5em;
+      margin-top: 1.5em;
+      width: 100%;
+      border: none;
+      background: #4f275b;
+      color: #fafafa;
+      margin: 0 auto;
+      border-radius: 0;
+    }
+  
+    .logoutButton:hover {
+      background: #5d326a;
+      color: #fafafa;
+    }
+
+    .chatWrapper {
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .roomColumn h2 {
+      display: none;
+    }
+
+    .roomColumn button {
+      text-align: left;
+      font-size: .7em;
+      margin-left: -.1em;
+      display: inline;
+    }
+
+    .buttonGroup {
+      background: #cca3e2;
+      margin-top: .4em;
+      margin-bottom: -.3em;
+    }
+
+    .chatColumn {
+      float: none;
+      width: 93%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .chatColumn h2 {
+       display: none;
+    }
+
+    .wordInput {
+     margin-top: 2em;
+    }
+
+    li {
+      color: #fff;
+      font-size: 1em;
+      font-weight: 700;
+      letter-spacing: .05em;
+      line-height: 1.7em;
+      margin-bottom: 1em;
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: left;
+    }
+  
+    .timestamp {
+      font-size: .2em;
+      font-weight: 500;
+      letter-spacing: .3em;
+      text-transform: uppercase;
+      display: block;
+      color: #fafafa;
+      text-align: left;
+    }
+  
+  }
